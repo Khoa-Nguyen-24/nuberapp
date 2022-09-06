@@ -11,13 +11,14 @@ import {
 
 function App({ signOut }) {
   return (
-    <View className="App">
-      <Card>
-        <Image src={logo} className="App-logo" alt="logo" />
-        <Heading level={1}>We now have Auth!</Heading>
-      </Card>
-      <Button onClick={signOut}>Sign Out</Button>
-    </View>
+    <body>        
+      <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '25vh'}}>
+          <h1>Welcome to Nüber </h1>
+      </div>
+      <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '125vh'}}>
+        <Button onClick={signOut}>Sign Out</Button>
+      </div>
+    </body>
   );
 }
 
