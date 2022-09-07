@@ -24,7 +24,7 @@ function App({ signOut }) {
         <Button onClick={false}>Driver</Button>
       </div>
 
-      <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '120vh'}}>
+      <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '130vh'}}>
         <Button onClick={signOut}>Sign Out</Button>
       </div>
     </body>
